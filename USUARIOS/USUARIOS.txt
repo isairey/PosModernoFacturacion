@@ -1,0 +1,4 @@
+Role 	Username 	Password
+Admin 	tusolutionweb@gmail.com 	tusolutionweb
+Cashier 	cashier@gmail.com 	tusolutionweb
+Salesman 	salesman@gmail.com 	tusolutionweb

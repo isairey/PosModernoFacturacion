@@ -1,0 +1,64 @@
+.prettyprint {
+	font-size: 12px;
+	line-height: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+.prettyprint .com {
+	color: #008200; /* balupton green */
+}
+.prettyprint .lit {
+	color: #066; /* google green */
+}
+.prettyprint.lang-html .lit {
+	/* CSS Property Value */
+	color: #066; /* google green */
+}
+.prettyprint.lang-html .kwd {
+	/* CSS Property Value Keyword */
+	color: #066; /* google green */
+	font-weight:bold;
+}
+.prettyprint.lang-html .atv + .pln,
+.prettyprint.lang-html .pun + .pln {
+	/* CSS Property Name */
+	color: blue;
+}
+.prettyprint .atv,
+.prettyprint .str {
+	color: blue;
+}
+.prettyprint .atn {
+	color: gray;
+}
+.prettyprint .pln {
+	color: black;
+}
+.prettyprint .pun {
+	color: #666;
+}
+.prettyprint .typ {
+	color: #606;
+}
+.prettyprint .tag,
+.prettyprint .kwd {
+	color: #006699;
+	font-weight: bold;
+}
+
+.prettyprint.linenums {
+	-webkit-box-shadow: inset 47px 0 0 #fbfbfc, inset 48px 0 0 #ececf0;
+	 /*-moz-box-shadow: inset 49px 0 0 #fbfbfc, inset 50px 0 0 #ececf0;
+	      box-shadow: inset 49px 0 0 #fbfbfc, inset 50px 0 0 #ececf0;*/
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+.prettyprint ol.linenums {
+	margin-left: 40px;
+	margin-bottom: 0;
+}
+.prettyprint ol.linenums li {
+	padding-left: 12px;
+	color: #bebec5;
+	text-shadow: 0 1px 0 #fff;
+}

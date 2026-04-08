@@ -1,0 +1,21 @@
+Options -Indexes
+# php_value short_open_tag 0
+AddType application/x-font-ttf .ttf
+
+# 3. Set max upload file size. Most hosts will limit this and not allow it to be overridden but you can try
+# php_value upload_max_filesize 999M
+
+# 4. set max post size. uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value post_max_size 999M
+
+# 5. set max time script can take. uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value max_execution_time 200
+
+# 6. set max time for input to be recieved. Uncomment this line if you have a lot of product options or are getting errors where forms are not saving all fields
+# php_value max_input_time 200
+
+# 7. set max time for execution
+php_value max_execution_time 600
+
+# 8. disable open_basedir limitations
+# php_admin_value open_basedir none

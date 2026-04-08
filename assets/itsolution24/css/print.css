@@ -1,0 +1,32 @@
+@media print { 
+	* {
+		border: none;
+	}
+	@page {
+		size: auto;
+		margin: 10px;
+	}
+	body {
+		margin: 1em;
+	}
+	a,
+	.no-print, 
+	.wrapper, 
+	.close,
+	.main-footer, 
+	.btn, 
+	.view-link {
+		display: none;
+	}
+	.box {
+		border-top: none!important;
+	}
+	.box-header.with-border {
+		border-bottom: none;
+	}
+	.table tr,
+	.table td,
+	.table th {
+		border-color: #000!important;
+	}
+}

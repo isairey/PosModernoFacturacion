@@ -1,0 +1,13 @@
+.main-sidebar ul.sidebar-menu li .svg-icon {
+	margin-left: 10px;
+}
+.sidebar-menu li > a > .pull-right {
+	right: auto;
+}
+.main-sidebar, .left-side {
+	left: auto;
+}
+.content-wrapper, .right-side, .main-footer {
+	margin-right: 180px;
+	margin-left: auto;
+}
