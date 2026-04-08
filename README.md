@@ -1,7 +1,7 @@
 # 🛒 Modern POS - Sistema de Punto de Venta con Gestión de Inventario
 
 <p align="center">
-  <img width="900" src="https://via.placeholder.com/1200x300.png?text=Modern+POS" alt="Modern POS Banner"/>
+
 </p>
 
 <p align="center">
